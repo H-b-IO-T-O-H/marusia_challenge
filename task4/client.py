@@ -127,7 +127,7 @@ class User:
 				self.catch_error('Something went wrong. Try again')
 			user_place = server_data['PLACE_IN_GAME']
 			say('Waiting another players...', voice_acting)
-			time.sleep(10)
+			time.sleep(3)
 		status = 'ko'
 		end_count = 3  # 3 attempts to close the connection with server
 		while status != 'ok' and end_count:

@@ -14,7 +14,7 @@ quests_all = {
 			[
 				'Yes',
 				'You are mistaken. The boiling point is directly proportional to the pressure of the atmosphere.'],
-		'The first derivative of the time coordinate': ['Speed', 'You are mistaken. Explanation...']}}
+		'The first derivative of the time coordinate': ['Speed', 'Some explanation...']}}
 
 
 def get_place(user_list, user_name):
@@ -99,8 +99,7 @@ class ClientServerProtocol(asyncio.Protocol):
 							user_room.remove(user_name)
 						if not user_room:
 							tournament_table[room] = []
-			print(tournament_table)
-			print(server_rooms)
+			print(f"Tournament table:\n{tournament_table}\nServer rooms:\n{server_rooms}")
 		return server_answer_template
 
 	def delete_session(self):
