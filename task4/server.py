@@ -7,14 +7,14 @@ server_rooms = {}
 
 quests_all = {
 	'History': {
-		'Год отмены крепостного права': ['1861', 'Вы ошибаетесь. Объяснение...'],
-		'Фамилия первого президента РФ': ['Ельцин', 'Вы ошибаетесь. Объяснение...']},
+		'Year of abolition of serfdom': ['1861', 'You are mistaken. Explanation...'],
+		'Last name of the first President of the Russian Federation': ['Yeltsin', 'You are mistaken. Explanation...']},
 	'Physics': {
-		'Зависит ли температура кипения жидкости от высоты над уровнем моря?':
+		'Does the boiling point of a liquid depend on the altitude above sea level?':
 			[
-				'Да, температура кипения прямо пропорциональна давлению атмосферы.',
-				'Вы ошибаетесь. Объяснение...'],
-		'Первая производная от координаты по времени': ['Скорость', 'Вы ошибаетесь. Объяснение...']}}
+				'Yes',
+				'You are mistaken. The boiling point is directly proportional to the pressure of the atmosphere.'],
+		'The first derivative of the time coordinate': ['Speed', 'You are mistaken. Explanation...']}}
 
 
 def get_place(user_list, user_name):
