@@ -2,6 +2,7 @@
 # GENERAL INFO:
 
 - #### author H-b-IO-T-O-H (Amelin V.N.)
+       introduction video: https://drive.google.com/file/d/1FfQyRspp_M6NKvF78RqqQevmlyMO28iW/view?usp=sharing
 
 - ### task1 - task3 via c++
 
