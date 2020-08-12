@@ -1,4 +1,4 @@
-###### ![Image alt](https://github.com/H-b-IO-T-O-H/marusia_challenge/blob/master/logo-grad.png)
+![Image alt](https://github.com/H-b-IO-T-O-H/marusia_challenge/blob/master/logo-grad.png =250x150)
 # GENERAL INFO:
 
 - #### author H-b-IO-T-O-H (Amelin V.N.)
